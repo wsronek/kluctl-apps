@@ -1,0 +1,5 @@
+apiVersion: kluctl.io/v1beta1
+kind: Deployment
+target: all
+includes:
+  - guestbook
